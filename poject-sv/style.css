@@ -1,0 +1,144 @@
+*{
+    padding:0;
+    margin: 0;
+}
+a{color:#212121;}
+body{
+
+    font-size: 100%;
+    font-family: "Helvetica Neue" ,Arial ,sans-serif;
+    -webkit-font-smoothing :antialiased;
+    color:#fff;
+}
+/***header ***/
+#header nav {
+    height: 65px;
+    width:100%;
+    background:#022B41;
+    -webkit-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.37);
+    box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.37);
+
+}
+
+#header nav ul {z-index: 99999;}
+#header nav ul li a{
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height:34px;
+    color:#DE9F0B;
+    text-align: justify;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#header nav ul li a:hover{
+    color: #ffffff;
+}
+
+#header nav ul li {
+    list-style: none;
+    padding:0;
+    position: relative;
+}
+
+#header nav ul ul {
+
+    display: none;
+    position: absolute;
+    width: auto;
+    top:65px;
+    background: #434444;
+}
+#header nav ul ul li{
+    width: 180px;
+    padding-left: 10px;
+    border-bottom: 1px solid #0F0F0F;
+}
+
+#header nav ul li:hover ul{
+    display: block;
+}
+
+.navbar-brand img{
+
+    height: 35px;
+    max-width: 200px;
+}
+
+.navbar-toggle{
+    border: none;
+    margin-top: 15px
+}
+
+
+/***DROP DOWN MENU**/
+.navbar-collapse{
+
+    background:#022B41 ;
+}
+.clear{clear: both;}
+
+/********barner*********/
+.content{margin-top: 100px;position: relative;}
+.banner h2{
+    color:#D96357;
+    font-size: 35px;
+    font-family: "Calendas Plus";
+    font-weight: bold;
+    font-style: oblique;
+}
+.banner p{
+    font-family:"Calendas Plus";
+    font-size: 14px;
+    font-style: oblique;
+    font-weight: 100;
+    color:#212121;
+
+
+}
+.slider{height:350px; background:gray; width: 100%;}
+
+#info-poject{padding-top:10px;}
+.text {
+    padding:30px 3px 0 0;
+    height:100px;
+
+}
+.text h3{text-align: center;}
+.pull-left{height:70px; height:70px;}
+.post{padding-bottom:10px ; border-bottom:1px solid  rgba(240,235,240,1); }
+.post img{border: 1px solid  rgba(224,217,224,1); padding: 5px  ;margin: 10px 5px 0 0}
+.site h3{border-bottom: 1px solid rgba(224,217,224,1) ; color:#d19b30;}
+.site p{font-size: 12px;color:#212121;}
+.link h5{padding-bottom: 5px; padding-left: 10px; border-bottom: 1px dotted rgba(224,217,224,1);}
+.sent-mail{
+    height:300px;
+    margin-top:40px; 
+    margin-bottom:40px; 
+    background:url(image/bg.jpg) center top repeat-y fixed;
+    position: static;
+    color: #fff;
+    font-size: 25px;
+    }
+.line{padding-top: 30px;}
+.form-control{border-radius: 0;border-color: 1px solid #fff;padding:3px;background:rgba(145, 72, 72, 0); color:#fff; margin-bottom: 4px }
+.btn-success{border-radius: 0;  background: #b46d70;color: #fff;border: 1px solid #b46d70;}
+
+/************************************************
+					FOOTER
+************************************************/
+
+
+.footer-top{height:40px;  background: #8C8C8C; }
+.footer-bottom{background: #022B41;}
+.social li{
+	display: inline;
+	text-decoration: none;
+	line-height: 40px;
+	padding: 15px;
+	cursor: pointer;
+}
+
+.social li a{font-size: 20px ;}
+.social li a:hover{color: #fff}

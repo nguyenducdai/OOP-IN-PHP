@@ -1,0 +1,59 @@
+.viewport {
+
+    height: 200px;
+    width: 260px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+
+
+
+}
+
+.no-margin {
+    margin-right: 0;
+}
+
+.viewport a {
+    display: block;
+    position: relative;
+}
+
+.viewport a img {
+
+    height: 233px;
+    position: relative;
+    top: -20px;
+    width: 260px;
+    padding-left: 2px;
+
+}
+
+.viewport a span {
+    display: none;
+    font-size: 1.7em;
+    font-weight: bold;
+    height: 100%;
+    padding-top: 95px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    z-index: 100;
+
+}
+    .viewport a span em {
+        display: block;
+        font-size: 0.5em;
+        font-weight: normal;
+    }
+
+/* --- Dark hover background ------------------------------------------------------------ */
+.dark-background {
+    background-color: rgba(15, 15, 15, 0.7);
+    color: #fff;
+    text-shadow: #000 0px 0px 20px;
+}
+    .dark-background em {
+        color: #ccc;
+    }
